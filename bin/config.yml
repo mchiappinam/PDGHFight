@@ -1,0 +1,43 @@
+#Configuracoes do autoStart
+#Horarios: Coloque 'dia-hora:minuto' caso queira todos os dias coloca apenas 'hora:minuto'
+AutoStart:
+  Ativar: true
+  Horarios:
+    - 'segunda-14:00'
+    - 'segunda-22:00'
+    - 'terca-14:00'
+    - 'terca-22:00'
+    - 'quarta-14:00'
+    - 'quarta-22:00'
+    - 'quinta-14:00'
+    - 'quinta-22:00'
+    - 'sexta-14:00'
+    - 'sexta-22:00'
+    - 'sabado-10:00'
+    - 'sabado-13:00'
+    - 'sabado-14:00'
+    - 'sabado-22:00'
+    - 'domingo-10:00'
+    - 'domingo-13:00'
+    - 'domingo-14:00'
+    - 'domingo-22:00'
+
+#Premios para o vencedor do evento.
+Premios:
+  Tag:
+    Ativar: true
+    Formato: '&5[Fighter]'
+  Dinheiro:
+    Ativar: true
+    Quantidade: 5000
+
+#Configuracoes dos avisos "iniciando";
+Iniciando:
+  NumeroDeAvisos: 30
+  TempoEntreAvisos: 10
+
+#Minimo de participantes para o evento iniciar
+MinimoParticipantes: 5
+
+#Tempo entre as lutas em segundos.
+TempoEntreLutas: 5

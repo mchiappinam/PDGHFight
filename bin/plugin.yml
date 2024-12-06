@@ -1,0 +1,8 @@
+name: PDGHFight
+main: me.mchiappinam.pdghfight.Main
+version: 1.0
+author: mchiappinam
+website: https://hostload.com.br/
+commands:
+    fight:
+      description: Info.
